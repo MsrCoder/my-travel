@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.header {
+    height: 5.5rem;
+    width: var(--main-width);
+    background-color: var(--secondary);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.logo-container {
+    width: 15.9rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header__logo {
+    width: 3.1rem;
+    -webkit-filter: drop-shadow(3px 2px 1px rgba(0, 0, 0, .7));
+    filter: drop-shadow(0 0 35px #0e0e0e);
+
+}
+
+.header__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 0.2cm;
+    text-shadow: 0px 2px 2px black;
+}

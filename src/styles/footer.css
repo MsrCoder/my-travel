@@ -1,0 +1,19 @@
+.footer {
+    background-color: white;
+    width: var(--main-width);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer__text {
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.red__heart {
+    color: red;
+
+}

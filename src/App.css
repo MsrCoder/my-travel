@@ -1,0 +1,18 @@
+:root {
+  --primary: #2B283A;
+  --secondary: #F55A5A;
+  --white: #FFFFFF;
+  --gray: #918E9B;
+  --main-width: 55rem;
+  background-color: #dfd4f2;
+
+}
+
+.App {
+  width: var(--main-width);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white);
+
+}
